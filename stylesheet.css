@@ -31,12 +31,21 @@
   background: #5e4485;
   border: 2px solid #fff;
 }
-.carousel-caption .btn btn-xs .active a, .carousel-caption .btn btn-xs .active a:focus, .carousel-caption .btn btn-xs .active a:hover {
-  color: #ffffff;
-  background-color: #5e4485;
+.container {
+  margin: 4% auto;
+}
+#icon {
+  max-width: 200px;
+  margin: 1% auto;
 }
 @media (max-width: 600px) {
   .carousel-caption {
     display: none;
+  }
+  #icon {
+    max-width: 150px;
+  }
+  h2 {
+    font-size: 1.7em;
   }
 }
